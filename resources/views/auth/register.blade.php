@@ -1,3 +1,8 @@
+{{-- 
+    email: test@gmail.com    
+    password: password123
+--}}
+
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
@@ -27,6 +32,14 @@
             <div class="mt-4">
                 <x-label for="password_confirmation" value="{{ __('Confirm Password') }}" />
                 <x-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />
+            </div>
+
+            <div class="mt-4">
+                <x-label for="role" value="{{ __('Role') }}" />
+                <select class="text-black w-full" name="role" id="role">
+                    <option class="text-black" value="admin">Admin</option>
+                    <option class="text-black" value="front-desk">Front Desk</option>
+                </select>
             </div>
 
             @if (Laravel\Jetstream\Jetstream::hasTermsAndPrivacyPolicyFeature())
