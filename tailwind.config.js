@@ -14,7 +14,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["Noto Sans", ...defaultTheme.fontFamily.sans],
+                sans: ["Inter", ...defaultTheme.fontFamily.sans],
             },
         },
     },
