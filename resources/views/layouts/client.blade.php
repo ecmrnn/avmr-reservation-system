@@ -16,7 +16,7 @@
     <body class="font-sans antialiased">
         <livewire:client.navigation />
         
-        <div class="dark:bg-gray-900">
+        <div>
             <!-- Page Content -->
             <main>
                 {{ $slot }}
