@@ -23,7 +23,7 @@
         
         <div>
             <!-- Page Content -->
-            <main class="min-h-screen bg-slate-400">
+            <main class="min-h-screen bg-slate-200 dark:bg-slate-900 dark:text-white">
                 {{ $slot }}
             </main>
         </div>

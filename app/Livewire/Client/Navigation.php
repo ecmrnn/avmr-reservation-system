@@ -9,11 +9,11 @@ class Navigation extends Component
     public function render()
     {
         return <<<'HTML'
-        <nav x-data="{ open: false }" class="w-full sticky top-0 bg-white/80 backdrop-blur-sm dark:bg-slate-900">
-            <div class="p-3 pl-5 max-w-7xl mx-auto md:px-10 md:py-3 flex items-center gap-5 justify-between relative">
+        <nav x-data="{ open: false }" class="w-full sticky top-0 bg-white/80 dark:text-white backdrop-blur-sm dark:bg-slate-900">
+            <div class="p-3 max-w-7xl mx-auto flex items-center gap-5 justify-between relative">
                 <!-- Logo -->
                 <a href="{{ route('client.home') }}" class="dark:text-white ">
-                    <img src="" alt="Amazing View Logo">
+                    <img src="" alt="Amazing View">
                 </a>
 
                 <!-- Desktop Navigation -->
@@ -51,7 +51,7 @@ class Navigation extends Component
                 x-transition
                 class="h-screen backdrop-blur-sm w-3/4 md:hidden bg-white/85 dark:bg-slate-900/85 shadow-xl fixed top-0 right-0 z-50">
                 <div class="p-3 pl-5 border-b flex items-center justify-between">
-                    <h2 class="text-xs dark:text-white">Main Menu</h2>
+                    <h2 class="text-xs font-semibold">Main Menu</h2>
 
                     <!-- Close Button -->
                     <button @click="open = false" class="w-10 h-10 flex flex-col items-center justify-center gap-1">
@@ -73,6 +73,13 @@ class Navigation extends Component
                         <livewire:client.nav-link link="Contact" to="client.contact" />
                     </li>
                 </ul>
+
+                <!-- Book a Room -->
+                <div class="px-5">
+                    <x-button class="w-full">
+                        {{ __('Book Now') }}
+                    </x-button>
+                </div>
             </div>
         </nav>
         HTML;
