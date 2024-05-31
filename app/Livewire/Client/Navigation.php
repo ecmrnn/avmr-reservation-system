@@ -9,7 +9,8 @@ class Navigation extends Component
     public function render()
     {
         return <<<'HTML'
-        <nav x-data="{ open: false }" class="w-full sticky top-0 bg-white/80 dark:text-white backdrop-blur-sm dark:bg-slate-900">
+        <nav x-data="{ open: false }"
+            class="w-full fixed top-0 bg-white/80 dark:text-white backdrop-blur-md dark:bg-slate-900/80 z-50">
             <div class="p-3 max-w-7xl mx-auto flex items-center gap-5 justify-between relative">
                 <!-- Logo -->
                 <a href="{{ route('client.home') }}" class="dark:text-white ">
@@ -49,7 +50,7 @@ class Navigation extends Component
             <div x-show="open"
                 @click.outside="open = false" 
                 x-transition
-                class="h-screen backdrop-blur-sm w-3/4 md:hidden bg-white/85 dark:bg-slate-900/85 shadow-xl fixed top-0 right-0 z-50">
+                class="h-screen backdrop-blur-md w-3/4 md:hidden bg-white/80 dark:bg-slate-900/80 shadow-xl fixed top-0 right-0 z-50">
                 <div class="p-3 pl-5 border-b flex items-center justify-between">
                     <h2 class="text-xs font-semibold">Main Menu</h2>
 
