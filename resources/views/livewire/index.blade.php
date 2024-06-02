@@ -1,4 +1,4 @@
-<div class="min-h-screen">
+<div>
     {{-- Hero --}}
     <div class="min-h-screen relative border-b dark:border-b-white/25">
         {{--  --}}
