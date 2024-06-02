@@ -1,8 +1,8 @@
 <div>
     <div class="min-h-screen">
-        <div class="max-w-7xl mx-auto p-3 py-20 grid md:grid-cols-2 gap-20">
+        <div class="max-w-7xl mx-auto p-3 py-20 grid lg:grid-cols-2 lg:gap-20">
             {{-- Greetings --}}
-            <div class="p-3 md:py-40">
+            <div class="p-3 md:pt-20 lg:py-40">
                 <h1 class="dark:text-white font-semibold">
                     <div class="text-3xl md:text-4xl lg:text-5xl">Got any business idea?</div>
                     <div class="text-4xl md:text-5xl lg:text-6xl">Send an email!</div>
@@ -27,7 +27,7 @@
             </div>
     
             {{-- Form --}}
-            <form action="" method="post" class="p-3 md:py-40">
+            <form action="" method="post" class="p-3 md:pb-20 lg:py-40">
                 <x-label for="email">Your email address</x-label>
                 <x-input id="email" type="text" class="w-full mt-3" placeholder="hello@mail.com"></x-input>
                 

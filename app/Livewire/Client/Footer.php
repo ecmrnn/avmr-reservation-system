@@ -32,16 +32,20 @@ class Footer extends Component
                     <h2 class="text-xl font-semibold mb-5">Navigate through our site</h2>
                     <nav>
                         <ul>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="Home" to="client.home" />
                             </li>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="Rooms" to="client.rooms" />
                             </li>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="About" to="client.about" />
                             </li>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="Contact" to="client.contact" />
                             </li>
                         </ul>
@@ -53,16 +57,20 @@ class Footer extends Component
                     <h2 class="text-xl font-semibold mb-5">Stay connected with us</h2>
                     <nav>
                         <ul>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="Facebook" to="https://www.facebook.com/amazingviewmountainresort" external="true" />
                             </li>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="Instagram" to="https://www.instagram.com/avmresort" external="true" />
                             </li>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="Youtube" to="#" external="true" />
                             </li>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="Twitter" to="#" external="true" />
                             </li>
                         </ul>
@@ -74,16 +82,20 @@ class Footer extends Component
                     <h2 class="text-xl font-semibold mb-5">Enjoy more of our contents!</h2>
                     <nav>
                         <ul>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="Testimonials" to="#" external="true" />
                             </li>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="Announcements" to="#" external="true" />
                             </li>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="Events" to="#" external="true" />
                             </li>
-                            <li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-[1px] bg-white"></div>
                                 <livewire:client.nav-link link="Blogs" to="#" external="true" />
                             </li>
                         </ul>
