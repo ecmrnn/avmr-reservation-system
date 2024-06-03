@@ -9,8 +9,8 @@
             </h1>
             <p class="mt-5 lg:font-semibold lg:text-xl max-w-md mx-auto md:mx-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, qui.</p>
 
-            <a href="#our-story" class="mt-5 mx-auto md:mx-0 rounded-full border border-black dark:border-white w-12 aspect-square grid place-items-center group hover:bg-black dark:hover:bg-white">
-                <svg class="fill-black dark:fill-white group-hover:fill-white dark:group-hover:fill-black" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M480-276 275.33-480l17.34-17.33 175.33 174v-410h24v410.66l174.67-174.66L684-480 480-276Z"/></svg>
+            <a href="#our-story" class="mt-5 mx-auto md:mx-0 rounded-full border border-black dark:border-white w-12 aspect-square grid place-items-center group hover:mt-7 transition-all ease-in-out">
+                <span class="material-symbols-outlined">arrow_downward_alt</span>
             </a>
         </div>
         {{--  --}}
@@ -27,13 +27,13 @@
 
     {{-- Brief History --}}
     <section id="our-story" class="min-h-screen grid place-items-center bg-white dark:bg-slate-900">
-        <div class="max-w-7xl mx-auto p-3 py-20 grid md:grid-cols-2 gap-20">
-            <div class="max-w-md md:max-w-full mx-auto">
+        <div class="max-w-7xl mx-auto p-3 py-20 grid lg:grid-cols-2 gap-5 md:gap-20">
+            <div class="max-w-md lg:max-w-full mx-auto">
                 <h2>
                     <div class="text-3xl font-semibold">Amazing View</div>
                     <div class="text-2xl font-semibold">Mountain Resort</div>
                 </h2>
-                <p>A glimpse of our hotel story</p>
+                <p>A glimpse of our resort story</p>
 
                 <p class="mt-5 text-justify">Nestled amidst the rolling hills of Mabitac, Laguna, the Amazing View Mountain Resort  beckons weary souls seeking solace in nature’s embrace. The air carries  whispers of pine and adventure, urging visitors to explore its hidden  trails.
                     <br><br>
@@ -49,12 +49,12 @@
     {{-- Milestones --}}
     <section class="bg-white dark:bg-slate-900">
         <div class="max-w-7xl mx-auto p-3 py-20">
-            <div class="max-w-md md:max-w-full mx-auto">
+            <div class="max-w-md lg:max-w-full mx-auto">
                 <h2 class="text-3xl font-semibold text-center md:text-left">Our Milestones</h2>
-                <p class="text-center md:text-left">Recent awards and achievements of our hotel</p>
+                <p class="text-center md:text-left">Amazing awards and achievements</p>
             </div>
 
-            <div class="mt-5 flex flex-col lg:flex-row gap-20">
+            <div class="max-w-md mx-auto lg:max-w-full mt-5 flex flex-col lg:flex-row gap-5 md:gap-20">
                 <div class="aspect-video w-full rounded-md bg-slate-200">
                     {{-- Image --}}
                 </div>

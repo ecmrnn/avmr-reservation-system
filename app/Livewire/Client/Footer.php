@@ -10,9 +10,9 @@ class Footer extends Component
     {
         return <<<'HTML'
         <footer class="bg-slate-900 text-white">
-            <section class="p-3 py-10 max-w-7xl mx-auto lg:grid grid-cols-4 gap-10">
+            <section class="p-3 py-10 max-w-md lg:max-w-7xl mx-auto lg:grid grid-cols-4 gap-10">
                 <!--  -->
-                <article class="md:border-r border-dashed border-white/50 md:pr-5">
+                <article class="lg:border-r border-dashed border-white/50 lg:pr-5">
                     <hgroup>
                         <h2>
                             <div class="text-3xl font-semibold">Amazing View</div>

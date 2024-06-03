@@ -56,7 +56,7 @@ class Navigation extends Component
 
                     <!-- Close Button -->
                     <button @click="open = false" class="w-10 h-10 flex flex-col items-center justify-center gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" class="fill-black dark:fill-white"><path d="m256-236-20-20 224-224-224-224 20-20 224 224 224-224 20 20-224 224 224 224-20 20-224-224-224 224Z"/></svg>
+                        <span class="fill-black dark:fill-white material-symbols-outlined">close</span>
                     </button>
                 </div>
 

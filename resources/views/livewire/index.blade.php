@@ -8,6 +8,10 @@
                 <div>Amazing Experience!</div>
             </h1>
             <p class="mt-5 lg:font-semibold lg:text-xl max-w-md mx-auto md:mx-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, qui.</p>
+
+            <a href="#our-services" class="mt-5 mx-auto md:mx-0 rounded-full border border-black dark:border-white w-12 aspect-square grid place-items-center group hover:mt-7 transition-all ease-in-out">
+                <span class="material-symbols-outlined">arrow_downward_alt</span>
+            </a>
         </div>
         {{--  --}}
         <section class="w-full bg-white dark:bg-slate-900 absolute bottom-0">
@@ -45,7 +49,7 @@
     </div>
 
     {{-- Featured Services --}}
-    <section class="min-h-screen grid place-items-center bg-white dark:bg-slate-900">
+    <section id="our-services" class="min-h-screen grid place-items-center bg-white dark:bg-slate-900">
         <div class="max-w-7xl mx-auto p-3 py-20">
             <h2 class="text-3xl font-semibold text-center md:text-left">Featured Services</h2>
             <p class="text-center md:text-left">Experience our featured services!</p>
@@ -100,7 +104,7 @@
 
     {{-- Brief History --}}
     <section class="min-h-screen grid place-items-center">
-        <div class="max-w-7xl mx-auto p-3 py-20 grid md:grid-cols-2 gap-20">
+        <div class="max-w-7xl mx-auto p-3 py-20 grid md:grid-cols-2 gap-5 lg:gap-20">
             <div class="aspect-square rounded-md bg-white dark:bg-slate-200">
                 {{-- Image --}}
             </div>
