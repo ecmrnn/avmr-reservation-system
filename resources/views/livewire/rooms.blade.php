@@ -31,14 +31,14 @@
             <h2 class="text-3xl font-semibold text-center md:text-left">Our Rooms</h2>
             <p class="text-center md:text-left">Experience elegant comfort through our rooms</p>
             
-            <div class="mt-5 space-y-5">
-                <article class="mx-auto flex flex-col md:flex-row gap-5">
+            <div class="mt-5 md:space-y-4">
+                <article class="p-3 mx-auto flex flex-col md:flex-row gap-5 border border-transparent hover:scale-[1.01] hover:bg-slate-50 hover:border-slate-200 dark:hover:bg-slate-800/25 dark:hover:border-slate-800 rounded-md transition-all ease-in-out">
                     <div class="bg-slate-200 h-52 rounded-md aspect-video flex-shrink-0">
                         <img src="" alt="Room Image">
                     </div>
                     
                     <div>
-                        <div class="flex justify-between items-center gap-5">
+                        <div class="flex justify-between items-start gap-5">
                             <div>
                                 <h3 class="text-2xl font-semibold">La Terraza Rooms</h3>
                                 <div class="flex gap-5 items-center">
@@ -79,13 +79,13 @@
                     </div>
                 </article>
                 
-                <article class="mx-auto flex flex-col md:flex-row gap-5">
+                <article class="p-3 mx-auto flex flex-col md:flex-row gap-5 border border-transparent hover:scale-[1.01] hover:bg-slate-50 hover:border-slate-200 dark:hover:bg-slate-800/25 dark:hover:border-slate-800 rounded-md transition-all ease-in-out">
                     <div class="bg-slate-200 h-52 rounded-md aspect-video flex-shrink-0">
                         <img src="" alt="Room Image">
                     </div>
                     
                     <div>
-                        <div class="flex justify-between items-center gap-5">
+                        <div class="flex justify-between items-start gap-5">
                             <div>
                                 <h3 class="text-2xl font-semibold">Cabana Rooms</h3>
                                 <div class="flex gap-5 items-center">
@@ -126,13 +126,13 @@
                     </div>
                 </article>
 
-                <article class="mx-auto flex flex-col md:flex-row gap-5">
+                <article class="p-3 mx-auto flex flex-col md:flex-row gap-5 border border-transparent hover:scale-[1.01] hover:bg-slate-50 hover:border-slate-200 dark:hover:bg-slate-800/25 dark:hover:border-slate-800 rounded-md transition-all ease-in-out">
                     <div class="bg-slate-200 h-52 rounded-md aspect-video flex-shrink-0">
                         <img src="" alt="Room Image">
                     </div>
                     
                     <div>
-                        <div class="flex justify-between items-center gap-5">
+                        <div class="flex justify-between items-start gap-5">
                             <div>
                                 <h3 class="text-2xl font-semibold">Pandan Villa</h3>
                                 <div class="flex gap-5 items-center">
@@ -173,13 +173,13 @@
                     </div>
                 </article>
 
-                <article class="mx-auto flex flex-col md:flex-row gap-5">
+                <article class="p-3 mx-auto flex flex-col md:flex-row gap-5 border border-transparent hover:scale-[1.01] hover:bg-slate-50 hover:border-slate-200 dark:hover:bg-slate-800/25 dark:hover:border-slate-800 rounded-md transition-all ease-in-out">
                     <div class="bg-slate-200 h-52 rounded-md aspect-video flex-shrink-0">
                         <img src="" alt="Room Image">
                     </div>
                     
                     <div>
-                        <div class="flex justify-between items-center gap-5">
+                        <div class="flex justify-between items-start gap-5">
                             <div>
                                 <h3 class="text-2xl font-semibold">Bamboo Nipa Huts</h3>
                                 <div class="flex gap-5 items-center">
